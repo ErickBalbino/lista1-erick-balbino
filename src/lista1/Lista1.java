@@ -42,8 +42,7 @@ public class Lista1 {
 		if (A > 10 || A + B == 20) {
 			System.out.println("número válido");
 		} else if (A == B) {
-			System.out
-					.println("A é igual B; A e B são diferentes de 10; A é menor que 10");
+			System.out.println("A é igual B; A e B são diferentes de 10; A é menor que 10");
 		} else {
 			System.out.println("número não válido");
 		}
