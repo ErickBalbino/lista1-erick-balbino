@@ -42,7 +42,8 @@ public class Lista1 {
 		if (A > 10 || A + B == 20) {
 			System.out.println("número válido");
 		} else if (A == B) {
-			System.out.println("A é igual B; A e B são diferentes de 10; A é menor que 10");
+			System.out
+					.println("A é igual B; A e B são diferentes de 10; A é menor que 10");
 		} else {
 			System.out.println("número não válido");
 		}
@@ -120,8 +121,7 @@ public class Lista1 {
 			System.out.println("números não válidos");
 		}
 
-		System.out
-				.println("Sejam bem-vindos à disciplina de Técnicas de Programação");
+		System.out.println("Sejam bem-vindos à disciplina de Técnicas de Programação");
 
 		// ITEM 13
 		if (A > 10) {
@@ -170,45 +170,45 @@ public class Lista1 {
 				}
 			}
 		}
-		
+
 		// ITEM 17
 		if (A > 10 || A + B == 20) {
-            System.out.println("número válido");
-        } else if (A == B) {
-            System.out.println("A é igual B");
-        } else if (A != 10 && B != 10 && A < 10) {
-            System.out.println("A é menor que 10");
-        } else {
-            System.out.println("número não válido");
-        }
-		
+			System.out.println("número válido");
+		} else if (A == B) {
+			System.out.println("A é igual B");
+		} else if (A != 10 && B != 10 && A < 10) {
+			System.out.println("A é menor que 10");
+		} else {
+			System.out.println("número não válido");
+		}
+
 		// ITEM 18
 		if (A > 10 || A + B == 20) {
-            System.out.println("número válido");
-        } else {
-            System.out.println("número não válido");
-        }
-		
+			System.out.println("número válido");
+		} else {
+			System.out.println("número não válido");
+		}
+
 		// ITEM 19
 		if (A > 10) {
-            System.out.println("A > 10");
-        } else {
-            System.out.println("A <= 10");
-        }
-        
-        if (A + B == 20) {
-            System.out.println("A + B == 20");
-        } else {
-            System.out.println("A + B != 20");
-        }
-        
-        // ITEM 20
-        if (A > 10 || A + B == 20) {
-            System.out.println("números válidos");
-        } else {
-            System.out.println("número não válido");
-        }
-        
-        System.out.println("Sejam bem-vindos à disciplina de Técnicas de Programação");
+			System.out.println("A > 10");
+		} else {
+			System.out.println("A <= 10");
+		}
+
+		if (A + B == 20) {
+			System.out.println("A + B == 20");
+		} else {
+			System.out.println("A + B != 20");
+		}
+
+		// ITEM 20
+		if (A > 10 || A + B == 20) {
+			System.out.println("números válidos");
+		} else {
+			System.out.println("número não válido");
+		}
+
+		System.out.println("Sejam bem-vindos à disciplina de Técnicas de Programação");
 	}
 }
